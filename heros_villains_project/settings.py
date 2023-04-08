@@ -117,6 +117,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 try:
-    from heros_villains_project .local_setting import *
+    from heros_villains_project.local_settings import *
 except ImportError:
     pass
